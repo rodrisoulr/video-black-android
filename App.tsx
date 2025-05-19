@@ -7,7 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
       <VideoPlayer 
-        source="https://5gsht45h4h24tgfjy-mobile.ext.bibly.com/community/comun_ruegrccT6WcZAUHZ97UM1234/video/6/index.m3u8?Expires=1747697748&Key-Pair-Id=K23COT2V2EOJI0&Signature=eqZQTwXgfSCUYBCldZ~FaOSuvcnbhhHRBvyw2yJAuh4arf2AKbME3MAmseDGO7y8Efp5OEdW9nV4jvT932Q6g6SdGNpaptBJJJ7kzvUrQnP~CWf2RExoGZp-jMHcYKvw9IIhjatSJE2GByBYuAY0vFGVO5MryS-yF6IwMJn~6okFfX6U6SYuSq1T8~pqwl0Nv6e~t6APJL7YnnIrmKomCmqkQ8VUQk7-QmOY0N0eGuFOLHSi4Mkrk~QprDqk0va0tcGp8nI2pN2nnGO3XlOW5KxPXNLIbs4k6ALUKMdjE2wSvhuXYnrq-~LtwP5wQqNkQlxujlVBOCM3HV7nlthxeg__"
+        source="https://5gsht45h4h24tgfjy-mobile.ext.bibly.com/community/comun_ruegrccT6WcZAUHZ97UM1234/video/6/index.m3u8?Expires=1747777687&Key-Pair-Id=K23COT2V2EOJI0&Signature=Rz-0VUm2WF7ZsyG6yEWw~gtzaj4XIUzUyfZwrvk6zXHMb7bnR0GfzCAi31E8yGL03Y8oVPreoLpfABoU7iNex-Ab-TAPGfGBrsDqOANsbb1L-y-pdohE0mjuS6y~Aie-5LNSLX3YF4ValyIfn95Y4H9FIjd-TVWVQjgWG7e~fCJNHOJDuk-2zRseV8nJlsIDZYi6FKRx2ZoGHjNv~~qj5UY1keNJFAghxrY-UrXGmacFyfc4-BQKXPb8O0IMd0cUMOVDmEmWNUhrP0w2PXNvcG42s0UFWqeOQ5CrHcAsLEzJSbc3YoGOi7Vt1VftSFdBBXyTEX7vBnU8a13PZ8Ue8Q__"
       />
     </View>
   );
