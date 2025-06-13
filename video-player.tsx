@@ -1,11 +1,11 @@
 import { StyleSheet, ViewProps } from 'react-native';
-import { useVideoPlayer, VideoView } from 'expo-video';
+import { useVideoPlayer, VideoSource, VideoView } from 'expo-video';
 
 export function VideoPlayer({
   source,
   autoplay,
 }: ViewProps & {
-  source: string;
+  source: VideoSource;
   autoplay?: boolean;
 }) {
   const player = useVideoPlayer(source, (initPlayer) => {

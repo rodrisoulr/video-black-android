@@ -1,13 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
 import { VideoPlayer } from './video-player';
+import { VideoSource } from 'expo-video';
+
+const videoSource: VideoSource = {
+  uri: 'https://5gsht45h4h24tgfjy-mobile.ext.bibly.com/community/comun_ruegrccT6WcZAUHZ97UM1234/video/7/index.m3u8?Expires=1749924748&Key-Pair-Id=K23COT2V2EOJI0&Signature=Wau4ayOMAu8oj2jcTcSwzLaX4D1odGdB-yuRhNSvtPJfcYTUIxeqH~MaTihNFsUkoak8bdNG0Y7AX315qzVi78N-RVUYSyNSOS~Q6RAd50zJ0DyTFFHVqzOQHgKX9qu0c-3h2Y7ogMyBRDPp8tZJgj6se72O5o1uni6AogqxJK70N8e98V-nb~pW9fvj3UMTEkCTLpGndXlmEsHaCkVhYKtvuD1jnMsVx4CoZvkir2hc0UZGUdpz88hvN~rL07B-~WZc0SKnI8bqAOVkrtF1jyUSWpJPNzxcKdTlKvfpcONo3SNpiyliocI5~UUGCBqw~mS5ZE4IkdNeM0qo43eOlw__',
+  contentType: 'hls',
+};
 
 export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <VideoPlayer 
-        source="https://5gsht45h4h24tgfjy-mobile.ext.bibly.com/community/comun_ruegrccT6WcZAUHZ97UM1234/video/6/index.m3u8?Expires=1749816903&Key-Pair-Id=K23COT2V2EOJI0&Signature=boUUf7lxwPIvzouYrAmf43lSBlXGtP3BT5M-kwptIxPylVsoe-6H6zkADEaUQiWlXjVBaYg2Y6F0Ejrfk9ut1IAtaAttmeGlitEiltwMQuZIpMWmShnWdd0~0evYir5e2U5JwtfsvBAWY5-A-KnZZ5BnzuSA-YdzY8rfhoRRTUlgkeDlmIHzHJqfMo4tqG7ee1BgPDjF3oZuULhU5reGHqMMQocGxiqu6cnkI5AlOqAKhNtyHanq7O47q-1QGLF3yC25OzBGHeuXuYvLuFvTD2TcWXFnHco380lo40llSdkbLwLpbXlwbTyz9212F0TjZn29unWV~mwy95sk3co1yg__"
+      <VideoPlayer
+        autoplay
+        source={videoSource}
       />
     </View>
   );
