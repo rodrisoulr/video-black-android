@@ -26,11 +26,13 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-video",
-      {
-        "supportsBackgroundPlayback": false,
-        "supportsPictureInPicture": false
-      }
+      [
+        "expo-video",
+        {
+          "supportsBackgroundPlayback": false,
+          "supportsPictureInPicture": false
+        }
+      ]
     ]
   }
 }
