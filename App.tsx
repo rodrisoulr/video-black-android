@@ -8,6 +8,8 @@ const videoSource: VideoSource = {
   contentType: 'hls',
 };
 
+console.log("preview")
+
 export default function App() {
   return (
     <View style={styles.container}>
