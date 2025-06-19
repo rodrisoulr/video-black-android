@@ -4,7 +4,7 @@ import { VideoPlayer } from './video-player';
 import { VideoSource } from 'expo-video';
 
 const videoSource: VideoSource = {
-  uri: 'https://5gsht45h4h24tgfjy-mobile.ext.bibly.com/community/comun_ruegrccT6WcZAUHZ97UM1234/video/4/index.m3u8?Expires=1750344903&Key-Pair-Id=K23COT2V2EOJI0&Signature=v4pEQt9XDojzXgnxMFmF45yxHzEf50YgHyyI1kp0LvDbDpPOY3JHc0m~xgN-0nNkdAdRx6WSVQN0gYJd3LL-gtKxApQrrLieVYVKwVYW~H5ZXcoXGzuf5g~1l0rye3gB1VSUiNhpR601pA4u~pSrcqdDBjagsmHv6Re5VibQwKiLfjbdiju1ogJBKs9f3dM6ZQEwEO4HNm77Koee~5Wtkk4fuxnQqPCgRgIGE~1vuOmSJAwlj~peGN2zGUfuMYrqjRm1dSiiKIDqJK-FeJe3ekKfr0ChRwQLpmz~iG8Ok7IkEGymNqPohza-IINkyRWzlF6uVYnJX19iznxsNwmkpA__',
+  uri: 'https://5gsht45h4h24tgfjy-mobile.ext.bibly.com/community/comun_ruegrccT6WcZAUHZ97UM1234/video/4/index.m3u8?Expires=1750430186&Key-Pair-Id=K23COT2V2EOJI0&Signature=s3rxcj45cqxgVUrju1vFzWszWHbk9K-zEtypMaadwlt~9Z-pF5cBvwAZLRhHKDl69sZNd9Ytgo4LyBtFFFqXk3ChNU4gJ~DhCMulbALcb10gNln4qByhE2LsvFxJCytIUMfVr8Rmhyh4YLTmj407DZ-VAqyreN50oPmpDWoKIkaCxO6RTOSCRQpBmfZ1gSHeJQjJyr5-nGr7VzO1RB7lVLcv3yjCuza5LNvSEFd22jdiKPxkZCO5ylYKSIgGXj65Iw4IHIoBSOX2RwXMszdJrhDXoNwf34BBlr1S5HEWOpUXs5dXaajsE3eBeT~mp0S9RKvmE1WIyC7erqspoOXmzA__',
   contentType: 'hls',
 };
 
